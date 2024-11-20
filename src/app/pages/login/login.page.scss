@@ -1,0 +1,14 @@
+ion-content{
+    --background: linear-gradient(to bottom, rgba(0, 0, 0) 50%, rgba(255, 255, 255, 0) 94%);
+}
+
+.titulo{
+    border-radius: 50px;
+    text-align: center;
+}
+
+.centradoFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

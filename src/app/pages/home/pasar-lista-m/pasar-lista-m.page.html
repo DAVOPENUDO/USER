@@ -1,0 +1,16 @@
+<app-header-back titulo="Pasar Lista" ></app-header-back>
+<ion-content class="ion-padding" >
+
+  <ion-list>
+    <ion-item>
+      <ion-input type="text" [(ngModel)]="codigo" placeholder="Codigo QR"></ion-input>
+    </ion-item>
+    <ion-button class="ion-margin-top" (click)="registrar()" color="secondary"  expand="block" shape="round">
+      Registrar asistencia
+    </ion-button>
+  </ion-list>
+
+
+  <p>{{codigo}}</p>
+
+</ion-content>

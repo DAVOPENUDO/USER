@@ -1,0 +1,33 @@
+ion-content{
+    --background: linear-gradient(to bottom, rgba(0, 0, 0) 50%, rgba(255, 255, 255, 0) 94%);
+}
+
+.centradoFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barraInferior{
+    background-color: #000000;
+    color: white;
+    font-size: 15px;
+}
+
+.titulo{
+    margin-top: 2px;
+    height: 10vh;
+}
+ion-card{
+    border-radius: 3.125rem;
+}
+ion-card-title{
+    font-size: 5vh;
+    display: block;
+}
+ion-card-subtitle{
+    text-align: center;
+}
+ion-img{
+    margin-top: 15vh;
+    height: 35vh;
+}

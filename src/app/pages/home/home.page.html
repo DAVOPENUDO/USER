@@ -1,0 +1,40 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-icon slot="icon-only" name=""></ion-icon>
+    </ion-buttons>
+    <ion-title>Control de Lista</ion-title>
+    <ion-label>{{alumno.nombre}}  {{alumno.apellidoPa}} {{alumno.apellidoMa}}</ion-label>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="cerrarSesion()">
+        <ion-icon slot="icon-only" name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+      <ion-card class="ion-margin-top" routerLink="pasar-lista-m">
+        <ion-card-content>
+          <ion-item >
+            <ion-label>Pasar lista manualmente</ion-label>
+            <ion-icon  color="secondary" slot="end" name="hand-left-outline"></ion-icon>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+      
+      <ion-card class="ion-margin-top" >
+        <ion-card-content>
+          <ion-item >
+            <ion-label>Escanear código QR</ion-label>
+            <ion-icon  color="secondary" slot="end" name="qr-code-outline"></ion-icon>
+          </ion-item>
+        </ion-card-content>
+      </ion-card>
+    
+
+
+</ion-content>

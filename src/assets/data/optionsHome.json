@@ -1,0 +1,10 @@
+[
+    {
+        "icono":"today-outline",
+        "titulo":"Pasar Lista Manualmente"
+    },
+    {
+        "icono":"list-outline",
+        "titulo":"Escanear Codigo QR"
+    }
+]
